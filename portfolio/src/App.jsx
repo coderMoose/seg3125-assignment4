@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import speedyMemoryImage from './assets/speedymemory-logo.png'
-import design3Img from './assets/design3.png'
+import mongooseImage from './assets/mongoose-logo.png'
 import design4Img from './assets/design4.png'
 import './App.css'
 
@@ -36,10 +36,10 @@ const caseStudies = [
   {
     title: 'Design 3',
     name: 'E-commerce site',
-    description: '...',
-    status: 'Coming soon',
-    href: '#design-3',
-    image: design3Img,
+    description: 'Mongoose, a small handkerchief store.',
+    status: 'Open',
+    href: '/mongoose',
+    image: mongooseImage,
   },
   {
     title: 'Design 4',
